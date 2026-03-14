@@ -48,7 +48,7 @@ php artisan migrate
 
 ## ER図
 
-※ 作成後ここに追加
+
 
 ---
 
