@@ -1,0 +1,128 @@
+.contact-container {
+    max-width: 1000px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+.contact-container-title {
+    text-align: center;
+    font-size: 32px;
+    color: #8b7969;
+    font-family: serif;
+    margin-bottom: 40px;
+}
+
+.contact-form {
+    width: 100%;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.form-group-content {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px 0;
+    border-bottom: 1px solid #e0dfde;
+    gap: 12px;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+}
+
+.form-group-content label {
+    width: 300px;
+    min-width: 160px;
+    font-size: 18px;
+    color: #8b7969;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.form-group-content span {
+    color: #e07070;
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+}
+
+.form-group-content input[type="text"],
+.form-group-content input[type="email"],
+.form-group-content input[type="tel"],
+.form-group-content select,
+.form-group-content textarea {
+    flex: 1;
+    height: 40px;
+    padding: 0 14px;
+    border: 1px solid #e3ded9;
+    background: #fbfbfb;
+    color: #8b7969;
+    font-size: 14px;
+    min-width: 0;
+}
+
+.form-group-content textarea {
+    height: 120px;
+    padding: 10px 14px;
+    resize: vertical;
+}
+
+.form-group-content select {
+    appearance: none;
+    -webkit-appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%238b7969' stroke-width='1.5' fill='none'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 14px center;
+    padding-right: 36px;
+}
+
+
+.form-group-content input[name="tel1"] { width: 80px; flex: none; }
+.form-group-content input[name="tel2"] { width: 90px; flex: none; }
+.form-group-content input[name="tel3"] { width: 90px; flex: none; }
+
+
+.form-group-content input[name="last_name"],
+.form-group-content input[name="first_name"] {
+    width: 160px;
+    flex: none;
+}
+
+
+.error-message {
+    width: 100%;
+    color: #e07070;
+    font-size: 12px;
+    margin-top: 4px;
+    padding-left: 172px;
+}
+
+
+.form-group-content input[type="radio"] {
+    height: auto;
+    width: auto;
+    flex: none;
+    margin-top: 12px;
+    accent-color: #8b7969;
+}
+
+.form-group-content button[type="submit"] {
+    display: block;
+    margin: 20px auto 0;
+    width: 200px;
+    height: 50px;
+    background: #8b7969;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+.form-group-content:last-child {
+    border-bottom: none;
+}
