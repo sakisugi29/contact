@@ -34,6 +34,9 @@ php artisan key:generate
 
 5. マイグレーション実行
 php artisan migrate
+
+6. シーダー実行
+php artisan db:seed
 ---
 
 ## 使用技術(実行環境)
